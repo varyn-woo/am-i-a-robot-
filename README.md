@@ -25,3 +25,8 @@ python detect.py https://ultralytics.com/images/zidane.jpg person -x 10 -y 199 -
 `--xmin`, `--xmax`, `--ymin`, `--ymax` - limits of a bounding box you would like to check
 
 `--image_name` - a short name for the purpose of saving image files (highly recommended; defaults to the full URL if not provided)
+
+## References
+This project was created for the *Caltech CS 12 - Computer Vision for Research* course.
+
+This project uses the [yolov3](https://github.com/ultralytics/yolov3) model.
